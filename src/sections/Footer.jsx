@@ -37,9 +37,9 @@ const Footer = () => {
   }, []);
 
   useEffect(() => {
-    if (window.location.href.includes("/terms")) {
+    if (window.location.href.includes("terms")) {
       setIsTermsOpen(true)
-    } else if (window.location.href.includes("/privacy")) {
+    } else if (window.location.href.includes("privacy")) {
       setIsPrivacyOpen(true)
     }
   }, [currentUrl])
