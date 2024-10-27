@@ -10,7 +10,7 @@ const Button = ({
     return (
         <a
             href={linkURL}
-            target="_blank"
+            target={linkURL === "#" ? "_self" : "_blank"}
             rel="noopener noreferrer"
         >
             <button className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none rounded-full ${fullWidth && 'w-full'}

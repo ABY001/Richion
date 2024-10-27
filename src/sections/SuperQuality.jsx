@@ -46,7 +46,7 @@ const SuperQuality = () => {
         <p className="mt-4 lg:max-w-lg info-text">{slides[currentSlide].text1}</p>
         <p className="mt-6 lg:max-w-lg info-text">{slides[currentSlide].text2}</p>
         <div className="mt-11">
-          <Button label='Shop Now' imgAlt="arrow right" />
+          <Button linkURL={"https://www.richionstore.com"} label='Shop Now' imgAlt="arrow right" />
         </div>
       </div>
       <div className="flex flex-1 justify-center items-center">
