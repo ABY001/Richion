@@ -10,9 +10,6 @@ const Footer = () => {
   const [isPrivacyOpen, setIsPrivacyOpen] = useState(false);
   const [isTermsOpen, setIsTermsOpen] = useState(false);
 
-  console.log('curerere', currentUrl);
-
-
   const toggleModal = (id) => {
     if (id === 1) {
       setIsPrivacyOpen(!isPrivacyOpen);
@@ -117,10 +114,10 @@ const Footer = () => {
                   {section.links.map((link) => (
                     <li
                       key={link.id}
-                      onClick={() => toggleModal(link.id)} // This is correct now
+                      onClick={() => i === 0 && toggleModal(link.id)}
                       className="text-white-400 mt-3 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer"
                     >
-                      <a>{link.name}</a>
+                      <a href={i === 1 && link.link}>{link.name}</a>
                     </li>
                   ))}
                 </ul>

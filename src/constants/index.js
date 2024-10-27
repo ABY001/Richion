@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { google, appstore, bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { google, appstore, bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, InternetService, Airtime, DollarVirtualCard } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -11,15 +11,15 @@ export const navLinks = [
 export const shoes = [
     {
         thumbnail: thumbnailShoe1,
-        bigShoe: bigShoe1,
+        bigShoe: InternetService,
     },
     {
         thumbnail: thumbnailShoe2,
-        bigShoe: bigShoe2,
+        bigShoe: Airtime,
     },
     {
         thumbnail: thumbnailShoe3,
-        bigShoe: bigShoe3,
+        bigShoe: DollarVirtualCard,
     },
 ];
 
@@ -110,8 +110,8 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "support@richionstore.com", link: "mailto:support@richionstore.com" },
-            { name: "07049847056", link: "tel:07049847056" },
+            { id: 1, name: "support@richionstore.com", link: "mailto:support@richionstore.com" },
+            { id: 2, name: "07049847056", link: "tel:07049847056" },
         ],
     },
 ];

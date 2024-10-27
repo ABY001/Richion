@@ -1,12 +1,12 @@
 import { useState } from "react"
 import { arrowRight } from "../assets/icons"
-import { bigShoe1 } from "../assets/images"
+import { InternetService } from "../assets/images"
 import Button from "../components/Button"
 import ShoeCard from "../components/ShoeCard"
 import { shoes, statistics } from "../constants"
 
 const Hero = () => {
-  const [bigShoeImg, setbigShoeImg] = useState(bigShoe1);
+  const [currentImage, setCurrentImage] = useState(InternetService);
 
   return (
     <section
@@ -17,16 +17,16 @@ const Hero = () => {
         {/* <p className="text-xl font-montserrat text-orange">Our summer collection</p> */}
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
-            The New Arrivals in
+            Welcome to
           </span><br />
           <span className="text-orange inline-block mt-3">
             Richion
-          </span> Store
+          </span> Digitals
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
           Discover stylish, high-quality fashion at Richion Store. From clothing and apparel to cutting-edge gadgets, we offer the perfect blend of style, comfort, and innovation for your everyday needs. Elevate your look with items that provide both fashion and functionality, ensuring you stay ahead of the trends.
         </p>
-        <Button label='Shop Now' iconURL={arrowRight} imgAlt="arrow right" />
+        <Button linkURL={"https://www.richionstore.com"} label='Shop Now' iconURL={arrowRight} imgAlt="arrow right" />
         {/* <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat, index) => (
             <div key={index}>
@@ -39,7 +39,7 @@ const Hero = () => {
 
       <div className="relative flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center">
         <img
-          src={bigShoeImg}
+          src={currentImage}
           alt='shoe colletion'
           width={610}
           height={502}
@@ -50,8 +50,8 @@ const Hero = () => {
             <div key={index}>
               <ShoeCard
                 imgURL={shoe}
-                changeBigShoeImage={(shoe) => { setbigShoeImg(shoe) }}
-                bigShoeImg={bigShoeImg}
+                changeBigShoeImage={(shoe) => { setCurrentImage(shoe) }}
+                InternetService={currentImage}
               />
             </div>
           ))}

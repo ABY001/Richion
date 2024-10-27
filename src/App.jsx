@@ -18,6 +18,9 @@ const App = () => {
       <section className='l:padding-l wide:padding-r padding-b'>
         <Hero />
       </section>
+      <section className='padding-y'>
+        <Slides />
+      </section>
       <section className='padding'>
         <PopularProducts />
       </section>
@@ -26,9 +29,6 @@ const App = () => {
       </section>
       <section className='padding-x py-10'>
         <Services />
-      </section>
-      <section className='padding-y'>
-        <Slides />
       </section>
       {/* <section className='bg-pale-blue padding'>
         <CustomerReviews />
