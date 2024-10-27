@@ -15,7 +15,7 @@ const SuperQuality = () => {
     {
       heading: 'Explore Richion Store\'s Exclusive Collection',
       text1: 'Our wide range of fashion items caters to all tastes, ensuring there’s something for everyone. Richion Store brings you the latest trends at unbeatable prices.',
-      text2: 'Shop now to enjoy our exclusive offers and discounts!',
+      text2: 'Get started to enjoy our exclusive offers and discounts!',
       image: shoe8, // Update with your actual image
     },
     {
@@ -46,7 +46,7 @@ const SuperQuality = () => {
         <p className="mt-4 lg:max-w-lg info-text">{slides[currentSlide].text1}</p>
         <p className="mt-6 lg:max-w-lg info-text">{slides[currentSlide].text2}</p>
         <div className="mt-11">
-          <Button linkURL={"https://www.richionstore.com"} label='Shop Now' imgAlt="arrow right" />
+          <Button linkURL={"https://play.google.com/store/apps/details?id=com.richion.mobile&hl=en_US"} label='Get Started' imgAlt="arrow right" />
         </div>
       </div>
       <div className="flex flex-1 justify-center items-center">

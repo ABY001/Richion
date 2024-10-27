@@ -26,7 +26,7 @@ const Hero = () => {
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
           Discover stylish, high-quality fashion at Richion Store. From clothing and apparel to cutting-edge gadgets, we offer the perfect blend of style, comfort, and innovation for your everyday needs. Elevate your look with items that provide both fashion and functionality, ensuring you stay ahead of the trends.
         </p>
-        <Button linkURL={"https://www.richionstore.com"} label='Shop Now' iconURL={arrowRight} imgAlt="arrow right" />
+        <Button linkURL={"https://play.google.com/store/apps/details?id=com.richion.mobile&hl=en_US"} label='Get Started' iconURL={arrowRight} imgAlt="arrow right" />
         {/* <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat, index) => (
             <div key={index}>
