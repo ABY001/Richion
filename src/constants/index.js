@@ -61,7 +61,7 @@ export const services = [
     {
         imgURL: support,
         label: "E-commerce/Marketplace",
-        subtext: "Richion Store offers a diverse range of fashion items, including clothing, apparel, and gadgets, all at competitive prices. Our marketplace is designed to provide a wide selection of the latest trends and high-quality products, making shopping both enjoyable and cost-effective."
+        subtext: "Richion Digitals offers a diverse range of fashion items, including clothing, apparel, and gadgets, all at competitive prices. Our marketplace is designed to provide a wide selection of the latest trends and high-quality products, making shopping both enjoyable and cost-effective."
     },
     {
         imgURL: shieldTick,
@@ -71,7 +71,7 @@ export const services = [
     {
         imgURL: shieldTick,
         label: "Wallet Services",
-        subtext: "Our digital wallets enable users to pay for their orders seamlessly. With the Richion Store wallet, managing your finances and making purchases has never been easier."
+        subtext: "Our digital wallets enable users to pay for their orders seamlessly. With the Richion Digitals wallet, managing your finances and making purchases has never been easier."
     },
     {
         imgURL: shieldTick,

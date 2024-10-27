@@ -13,7 +13,7 @@ const Nav = () => {
             className="rounded-lg"
             width={40}
             height={40} />
-          Richion Stores
+          Richion Digitals
         </a>
         <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
           {navLinks.map((item) => (

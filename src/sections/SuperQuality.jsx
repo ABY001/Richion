@@ -7,20 +7,20 @@ const SuperQuality = () => {
 
   const slides = [
     {
-      heading: 'Welcome to Richion Store - Premium Quality for You',
-      text1: 'At Richion Store, we believe in delivering the best quality products to our customers. From fashion to accessories, each item is handpicked to ensure a perfect blend of style and comfort.',
+      heading: 'Welcome to Richion Digitals - Premium Quality for You',
+      text1: 'At Richion Digitals, we believe in delivering the best quality products to our customers. From fashion to accessories, each item is handpicked to ensure a perfect blend of style and comfort.',
       text2: 'Visit us today to discover why we are the top choice for premium shopping.',
       image: shoe8, // Update with your actual image
     },
     {
-      heading: 'Explore Richion Store\'s Exclusive Collection',
-      text1: 'Our wide range of fashion items caters to all tastes, ensuring there’s something for everyone. Richion Store brings you the latest trends at unbeatable prices.',
+      heading: 'Explore Richion Digitals\' Exclusive Collection',
+      text1: 'Our wide range of fashion items caters to all tastes, ensuring there’s something for everyone. Richion Digitals brings you the latest trends at unbeatable prices.',
       text2: 'Get started to enjoy our exclusive offers and discounts!',
       image: shoe8, // Update with your actual image
     },
     {
-      heading: 'Richion Store - Quality You Can Trust',
-      text1: 'With a focus on customer satisfaction, we guarantee quality in every purchase. Whether you are shopping for everyday essentials or luxury items, Richion Store has got you covered.',
+      heading: 'Richion Digitals - Quality You Can Trust',
+      text1: 'With a focus on customer satisfaction, we guarantee quality in every purchase. Whether you are shopping for everyday essentials or luxury items, Richion Digitals has got you covered.',
       text2: 'Join the Richion family and experience shopping like never before.',
       image: shoe8, // Update with your actual image
     },
@@ -52,7 +52,7 @@ const SuperQuality = () => {
       <div className="flex flex-1 justify-center items-center">
         <img
           src={slides[currentSlide].image}
-          alt="Richion Store"
+          alt="Richion Digitals"
           width={570}
           height={522}
           className="object-contain"
